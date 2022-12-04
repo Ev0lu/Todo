@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #08062b;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+margin-top: 25px;
+}
+
+.main{
+  margin-top: 50px;
+  margin-bottom: 25px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+
+.todos{
+  color: white;
+}
+.noTodos{
+  margin-top: 50px;
+  color: white;
+}

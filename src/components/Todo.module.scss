@@ -1,0 +1,47 @@
+.todo{
+    margin-top: 50px;
+   max-width: 350px;
+   font-family: "Poppins", sans-serif;
+  
+}
+.todo_container{
+    background-color: rgb(52, 52, 196);
+ 
+    padding: 12px 15px 12px 25px;
+    display: flex;
+    justify-content: space-between;
+  
+    flex: 1;
+}
+.text{
+    margin-right: 10px;
+   
+    text-align: start;
+    flex: 1 0;
+}
+
+.buttonDelete{
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #ff6f47;
+    border: none;
+}
+.checkButton{
+    padding-right: 15px;
+    padding-left: 15px;
+    background: rgb(11, 212, 162);
+    border: none;
+}
+.todo_inner{
+    display: flex;
+}
+.id{
+    margin-right: 5px;
+}
+.completed{
+text-decoration: line-through;
+opacity: 0.5;
+    }
+.btnCompleted{
+    background: lightgray;
+}

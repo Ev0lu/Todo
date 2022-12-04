@@ -1,0 +1,35 @@
+.footer{
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+.footerContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .footerText, p{
+    text-align: center;
+  }
+
+ .authorButton{
+  padding: 9px 15px 9px 15px;
+  background-color: rgb(47, 47, 145);
+  border-radius: 12px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  transition: 0.2s;
+ }
+
+ .authorButton:hover{
+  background-color: rgb(56, 56, 160);
+ }
+
+ .authorButton:active{
+  background-color: rgb(37, 37, 107);
+ }
+ 
+ 

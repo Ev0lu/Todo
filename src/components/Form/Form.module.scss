@@ -1,0 +1,62 @@
+.main__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.todoInput_Container,.todoButton_Container{
+    display: inline-block;
+  }
+  .todoInput{
+   margin-right: -2px;
+    padding: 5px 5px 5px 5px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+  }
+  .todoButton{
+    padding: 5px 6px 5px 6px;
+    border: none;
+    color: white;
+    background-color: rgb(70, 70, 199);
+    transition: 0.2s;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+  }
+  .todoButton:hover{
+    background-color: rgb(55, 55, 165);
+  }
+  .todoButton:active{
+    background-color: rgb(42, 42, 129);
+  }
+
+  //select
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-image: none;
+  }
+  
+  /* Custom Select */
+  .select {
+    margin:1rem;
+    position: relative;
+    overflow: hidden;
+   
+  }
+  
+  select {
+    color: #c2b3ae;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    width: 6rem;
+    padding: 5.5px 5px 5.5px 5px;
+  }
+  /* Arrow */
+ //#ff6f47;
